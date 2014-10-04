@@ -37,5 +37,13 @@ Hello! The time is now <%= date %>
 	 %>
 </table>
 
+
+<br>
+<hr>
+
+<h2>Link to FileCounter</h2>
+<a href="FileCounter">FileCounter</a>
+
+
 </body>
 </html>

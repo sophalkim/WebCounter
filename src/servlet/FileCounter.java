@@ -41,6 +41,7 @@ public class FileCounter extends HttpServlet {
 			count++;
 		}
 		out.println("This site has been accessed " + count + " times.");
+		out.println("<a href='Test.jsp'>Link to Test</a>");
 	}
 	
 	@Override
