@@ -23,7 +23,7 @@ Hello! The time is now <%= date %>
 <br>
 <hr>
 
-<TABLE BORDER=2>
+<table BORDER=2>
 	<%
 		int n = 5;
 		for (int i = 0; i < n; i++) {
@@ -35,7 +35,7 @@ Hello! The time is now <%= date %>
 			<%
 		}
 	 %>
-</TABLE>
+</table>
 
 </body>
 </html>
