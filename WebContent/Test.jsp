@@ -44,6 +44,12 @@ Hello! The time is now <%= date %>
 <h2>Link to FileCounter</h2>
 <a href="FileCounter">FileCounter</a>
 
+<br>
+<hr>
+
+<h2>Link to jQuery</h2>
+<a href="jQuery/practice.html">FileCounter</a>
+
 
 </body>
 </html>
