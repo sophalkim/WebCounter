@@ -7,6 +7,12 @@
 <title>Test</title>
 </head>
 <body>
-Hello! The time is now <%= new java.util.Date() %>
+
+<% 
+	System.out.println("Evaluating Date Now"); 
+	java.util.Date date = new java.util.Date();
+%>
+Hello! The time is now <%= date %>
+<h2>The operating system installed on this computer is <%= System.getProperty("os.name") %></h2>
 </body>
 </html>
