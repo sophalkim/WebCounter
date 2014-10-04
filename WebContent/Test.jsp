@@ -20,6 +20,22 @@ Hello! The time is now <%= date %>
 	<% out.println("Your machine address is " + request.getRemoteHost()); %>
 </h4>
 
-<% response.sendRedirect("FileCounter"); %>
+<br>
+<hr>
+
+<TABLE BORDER=2>
+	<%
+		int n = 5;
+		for (int i = 0; i < n; i++) {
+			%>
+			<tr>
+			<td>Number</td>
+			<td><%= i + 1 %></td>
+			</tr>
+			<%
+		}
+	 %>
+</TABLE>
+
 </body>
 </html>
