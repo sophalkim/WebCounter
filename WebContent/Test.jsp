@@ -9,10 +9,15 @@
 <body>
 
 <% 
-	System.out.println("Evaluating Date Now"); 
+	// System.out.println("Evaluating Date Now"); 
 	java.util.Date date = new java.util.Date();
 %>
 Hello! The time is now <%= date %>
 <h2>The operating system installed on this computer is <%= System.getProperty("os.name") %></h2>
+<h3><% out.println("Using the out variable."); %></h3>
+
+<h4>
+	<% out.println("Your machine address is " + request.getRemoteHost()); %>
+</h4>
 </body>
 </html>
