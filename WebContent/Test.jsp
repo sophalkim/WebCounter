@@ -19,5 +19,7 @@ Hello! The time is now <%= date %>
 <h4>
 	<% out.println("Your machine address is " + request.getRemoteHost()); %>
 </h4>
+
+<% response.sendRedirect("FileCounter"); %>
 </body>
 </html>
