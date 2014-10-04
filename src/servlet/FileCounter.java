@@ -40,7 +40,7 @@ public class FileCounter extends HttpServlet {
 		if (session.isNew()) {
 			count++;
 		}
-		out.println("This site has been accessed" + count + "times.");
+		out.println("This site has been accessed " + count + " times.");
 	}
 	
 	@Override
